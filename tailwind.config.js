@@ -8,16 +8,23 @@ export default {
     extend: {
       colors: {
         agit: {
-          magenta: {
-            DEFAULT: '#9E1B5D',
-            hover: '#82154B',
-            dark: '#66103A',
+          burgundy: {
+            DEFAULT: '#7A003C',
+            hover: '#610030',
+            dark: '#4A0024',
             light: '#FDF2F7',
-            border: '#F4CEDF',
+            border: '#F2CCE0',
+          },
+          magenta: {
+            DEFAULT: '#7A003C',
+            hover: '#610030',
+            dark: '#4A0024',
+            light: '#FDF2F7',
+            border: '#F2CCE0',
           },
           orange: {
-            DEFAULT: '#F37021',
-            hover: '#D95C12',
+            DEFAULT: '#F26522',
+            hover: '#D95210',
             light: '#FFF5F0',
           },
           navy: {
@@ -36,25 +43,15 @@ export default {
             700: '#334155',
             800: '#1E293B',
             900: '#0F172A',
-          },
-          status: {
-            opportunity: '#3B82F6',
-            qualification: '#6366F1',
-            proposal: '#8B5CF6',
-            negotiation: '#F59E0B',
-            closing: '#10B981',
-            won: '#059669',
-            lost: '#EF4444',
           }
         }
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+        sans: ['"Plus Jakarta Sans"', 'Inter', 'system-ui', 'sans-serif'],
       },
       boxShadow: {
-        'card': '0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.03)',
-        'card-hover': '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
-        'glass': '0 8px 32px 0 rgba(31, 38, 135, 0.07)',
+        'card': '0 1px 3px 0 rgba(0, 0, 0, 0.04), 0 1px 2px 0 rgba(0, 0, 0, 0.02)',
+        'card-hover': '0 4px 12px -2px rgba(0, 0, 0, 0.08)',
       }
     },
   },
