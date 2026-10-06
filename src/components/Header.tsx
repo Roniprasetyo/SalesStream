@@ -43,9 +43,9 @@ export const Header: React.FC<HeaderProps> = ({
                 </span>
               </div>
               <div className="text-xs text-slate-500 font-medium flex items-center gap-1.5">
-                <span>Ecosystem:</span>
+                <span>Vendor:</span>
                 <span className="text-slate-700 font-semibold flex items-center gap-1">
-                  <Building2 className="w-3 h-3 text-agit-orange" /> AstraTech / Politeknik Astra
+                  <Building2 className="w-3 h-3 text-agit-magenta" /> PT Astra Graphia Information Technology (AGIT)
                 </span>
               </div>
             </div>
@@ -113,7 +113,7 @@ export const Header: React.FC<HeaderProps> = ({
             </div>
             <div className="hidden xl:block text-left">
               <div className="text-xs font-bold text-slate-800 leading-tight">Budi Santoso</div>
-              <div className="text-[11px] text-slate-500 font-medium">Sr. Sales Manager — AstraTech</div>
+              <div className="text-[11px] text-slate-500 font-medium">Sr. Sales Manager — Enterprise Division</div>
             </div>
             <ChevronDown className="w-3.5 h-3.5 text-slate-400 hidden xl:block" />
           </div>

@@ -40,7 +40,7 @@ export const QuickActivityModal: React.FC<QuickActivityModalProps> = ({
       type,
       category,
       customerId,
-      customerName: customer?.name || 'Politeknik Astra',
+      customerName: customer?.name || 'PT Nusantara Enterprise Tbk',
       pipelineId,
       pipelineName: pipeline?.projectName || 'Smart Campus IoT Modernization',
       contactPerson,

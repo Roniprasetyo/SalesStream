@@ -132,7 +132,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
             </span>
           </div>
           <p className="text-xs text-slate-300 mt-1 max-w-2xl">
-            Real-time sales pipeline performance, revenue plan forecasting, win/loss analytics, and key customer engagement metrics for AstraTech ecosystem.
+            Real-time sales pipeline performance, revenue plan forecasting, win/loss analytics, and key customer engagement metrics across AGIT enterprise accounts.
           </p>
         </div>
         <div className="flex items-center gap-3">
@@ -410,8 +410,8 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
             <div className="mt-3 p-3 bg-slate-50 rounded-xl border border-slate-200">
               <span className="text-xs font-bold text-slate-700 block mb-1">Primary Win/Loss Driver Analysis:</span>
               <p className="text-xs text-slate-600 leading-relaxed">
-                • <strong>Wins:</strong> Strong Astra Ecosystem synergy, pre-integrated AGIT IoT platform, robust cloud SLA.<br />
-                • <strong>Losses:</strong> Niche local hardware pricing constraint on standard RFID campus library tags.
+                • <strong>Wins:</strong> Strong AGIT Practice synergy, pre-integrated IoT platform, robust enterprise cloud SLA.<br />
+                • <strong>Losses:</strong> Niche local hardware pricing constraint on standard RFID campus tags.
               </p>
             </div>
           </div>
@@ -482,7 +482,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
           <div className="flex items-center justify-between mb-4">
             <div>
               <h3 className="text-sm font-bold text-slate-900">Recent Pipeline Updates</h3>
-              <p className="text-xs text-slate-500">Live opportunity movements in AstraTech ecosystem</p>
+              <p className="text-xs text-slate-500">Live opportunity movements across enterprise accounts</p>
             </div>
           </div>
 
