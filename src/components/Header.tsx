@@ -35,13 +35,6 @@ export const Header: React.FC<HeaderProps> = ({
               </span>
             </div>
           </div>
-
-          <div className="h-4 w-px bg-slate-200 hidden md:block"></div>
-
-          {/* Current Page Title */}
-          <div className="hidden lg:block text-xs font-semibold text-slate-500">
-            {activeViewTitle}
-          </div>
         </div>
 
         {/* Center: Minimal Search Input */}
