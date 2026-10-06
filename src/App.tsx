@@ -112,7 +112,7 @@ export const App: React.FC = () => {
   const currentPipeline = pipelines.find(p => p.id === selectedPipelineId);
 
   return (
-    <div className="min-h-screen bg-slate-50 flex flex-col font-sans selection:bg-agit-magenta selection:text-white">
+    <div className="h-screen flex flex-col overflow-hidden bg-slate-50 font-sans selection:bg-agit-burgundy selection:text-white">
       {/* Header */}
       <Header
         onOpenSearch={() => setIsSearchOpen(true)}

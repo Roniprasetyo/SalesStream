@@ -64,7 +64,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
     <aside
       className={`bg-slate-900 text-slate-300 flex flex-col transition-all duration-300 border-r border-slate-800 ${
         collapsed ? 'w-16' : 'w-64'
-      } shrink-0 min-h-[calc(100vh-57px)]`}
+      } shrink-0 h-full overflow-y-auto`}
     >
       {/* Sidebar Navigation Items */}
       <div className="flex-1 py-4 px-3 space-y-1.5 overflow-y-auto">
